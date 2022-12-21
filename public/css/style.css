@@ -36,3 +36,19 @@ h1, h2{
     color: red;
     border: 1px solid red;
 }
+
+.arguments ul{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.arguments ul li{
+    color: white;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.arguments ul li:hover{
+    color: red;
+}

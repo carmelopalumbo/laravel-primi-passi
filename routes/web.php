@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/back-end-page', function () {
-    $backendarg = ['php, database, mysql, laravel'];
+    $backendarg = ['php', 'database', 'mysql', 'laravel'];
     return view('backend', compact('backendarg'));
 });
 

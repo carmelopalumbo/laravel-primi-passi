@@ -12,6 +12,14 @@
 <body>
     <h2>THIS IS BACK END PAGE</h2>
 
+    <div class="arguments">
+        <ul>
+            @foreach ($backendarg as $arg)
+                <li>{{ $arg }}</li>
+            @endforeach
+        </ul>
+    </div>
+
     <div class="links">
         <a href="/front-end-page">GO TO FRONT END</a>
         <a href="/">HOME</a>
