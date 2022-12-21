@@ -26,6 +26,6 @@ Route::get('/back-end-page', function () {
 
 Route::get('/front-end-page', function () {
 
-    $frontendarg = ['html', 'css', 'boostrap', 'JavaScript', 'VueJS', 'Vite'];
+    $frontendarg = ['html', 'css', 'bootstrap', 'JavaScript', 'VueJS', 'Vite'];
     return view('frontend', compact('frontendarg'));
 });
